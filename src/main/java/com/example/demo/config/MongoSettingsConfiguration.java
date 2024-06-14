@@ -14,7 +14,6 @@ public class MongoSettingsConfiguration {
 		return MongoClientSettings.builder()
 			.applicationName("testApp")
 			.serverApi(ServerApi.builder()
-				.strict(true)
 				.version(ServerApiVersion.V1)
 				.build())
 			.build();
